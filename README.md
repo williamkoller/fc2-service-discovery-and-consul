@@ -27,3 +27,11 @@
   - Resolucoes via DNS
   - Health Check
   - Como saber se tenho permissao para acessar
+
+### Hashicorp Consul
+
+- Service Discovery
+- Service Segmentation
+- Load Balancer na Borda (Layer 7)
+- Key/Value Configuration
+- Opensource / Enterprise
