@@ -35,3 +35,9 @@
 - Load Balancer na Borda (Layer 7)
 - Key/Value Configuration
 - Opensource / Enterprise
+
+### Consul & Service Registry Centralizado
+
+<p align="center">
+  <img src="imgs/consul-dns-server.png">
+</p>
