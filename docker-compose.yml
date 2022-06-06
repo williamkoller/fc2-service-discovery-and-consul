@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  consul_01:
+    image: consul:1.10
+    container_name: consul_01
+    hostname: consul_01
+    command: ['tail', '-f', '/dev/null']
