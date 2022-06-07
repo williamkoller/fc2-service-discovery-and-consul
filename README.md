@@ -139,3 +139,5 @@
 - 3 para rodar cada server, primeiro precisamos saber o ip do docker `ifconfig` e rodarmos o server: `consul agent -server -bootstrap-expect=3 -node=consulserver_01 -bind=172.23.0.2 -data-dir=/var/lib/consul -config-dir=/etc/consul.d`
   - 3.1 verificando os members: `consul members`
   - 3.2 fazer a comunicacao no segundo server: `consul join 172.23.0.2`
+
+- 4 rodar o agent: `consul agent -config-dir=/etc/consul.d`
